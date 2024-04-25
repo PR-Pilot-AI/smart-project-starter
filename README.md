@@ -26,14 +26,9 @@ to automate Github projects in powerful ways.
 
 Open the `Actions` tab 
 
-![Actions Tab](github_tabs.png)
+<img src="github_tabs.png" width="350" alt="Actions Tab">
 
-and select **[🔄 Import Smart Workflow](tools/import-workflow)**.
-
-![Github Workflow selector](github_workflow_selector.png)
-
-
-Now, run the workflow with the ID of the **[Smart Workflow](https://github.com/PR-Pilot-AI/smart-workflows/tree/main)** you'd like to import:
+Run the **`🔄 Import Smart Workflow`** and enter the ID of the **[Smart Workflow](https://github.com/PR-Pilot-AI/smart-workflows/tree/main)** you'd like to import:
 
 ![Import Workflow](github_run_workflow.png)
 
