@@ -24,9 +24,17 @@ to automate Github projects in powerful ways.
 
 ## Importing Tools and Automations
 
-Adding new tools and automations is easy:
+Open the `Actions` tab 
 
-1. Open the `Actions` tab and select **[🔄 Import Smart Workflow](tools/import-workflow)**
-2. Run the workflow to import a **[Smart Workflow](https://github.com/PR-Pilot-AI/smart-workflows/tree/main)**
+![Actions Tab](github_tabs.png)
+
+and select **[🔄 Import Smart Workflow](tools/import-workflow)**.
+
+![Github Workflow selector](github_workflow_selector.png)
+
+
+Now, run the workflow with the ID of the **[Smart Workflow](https://github.com/PR-Pilot-AI/smart-workflows/tree/main)** you'd like to import:
+
+![Import Workflow](github_run_workflow.png)
 
 A new PR will be created that contains your imported workflow and ideas for how to customize for your project's needs.
