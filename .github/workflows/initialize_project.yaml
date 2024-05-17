@@ -21,6 +21,7 @@ jobs:
         uses: PR-Pilot-AI/smart-actions/quick-task@v1
         with:
           api-key: ${{ secrets.PR_PILOT_API_KEY }}
+          gpt-model: gpt-4
           agent-instructions: |
             This is an empty project and we want to initialize it.
 
