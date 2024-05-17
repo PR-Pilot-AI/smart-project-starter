@@ -22,13 +22,21 @@ to automate Github projects in powerful ways.
 1. Create a **[new Github project using this template](https://github.com/new?template_name=smart-project-starter&template_owner=PR-Pilot-AI)**
 2. **[Install the AI agent](https://github.com/apps/pr-pilot-ai/installations/new)** on your repository
 
-## Importing Tools and Automations
+### Generate Initial Project Files
 
+The template comes with a Github action that allows you to quickly generate an initial set of files for your new project.
 Open the `Actions` tab 
 
 <img src="github_tabs.png" width="350" alt="Actions Tab">
 
-Run the **`🔄 Import Smart Workflow`** and enter the ID of the **[Smart Workflow](https://github.com/PR-Pilot-AI/smart-workflows/tree/main)** you'd like to import:
+Then:
+* Select the **🚀 Initialize Project** workflow
+* Enter your project details (language, framework, description) and hit run
+* Wait for PR Pilot to open a new PR with your project files
+
+### Importing More Tools and Automations
+
+You can easily import more tools and automations using the **`🔄 Import Smart Workflow`** action. Just enter the ID of the **[Smart Workflow](https://github.com/PR-Pilot-AI/smart-workflows/tree/main)** you'd like to import:
 
 ![Import Workflow](github_run_workflow.png)
 
